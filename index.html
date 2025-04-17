@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <!-- Solo el formulario de Login -->
+        <form id="login-form" class="sign-in-form">
+          <h2 class="title">Ingresa credenciales</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input id="usuario" type="text" placeholder="Username" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input id="password" type="password" placeholder="Password" required />
+          </div>
+          <input type="submit" value="Login" class="btn solid" />
+        </form>
+      </div>
+    </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>Inicio de sesión</h3>
+          <p>Bienvenido, por favor ingresa tus credenciales.</p>
+        </div>
+        <img src="img/log.svg" class="image" alt="Login illustration" />
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
